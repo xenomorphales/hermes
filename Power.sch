@@ -1,42 +1,15 @@
 EESchema Schematic File Version 2
-LIBS:power
 LIBS:device
-LIBS:transistors
 LIBS:conn
-LIBS:linear
 LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:Hermes-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 17
-Title ""
+Sheet 2 18
+Title "Hermes2 power supply"
 Date ""
-Rev ""
+Rev "rev1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -44,55 +17,211 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_01X02 P5
-U 1 1 55E7E300
-P 5150 3200
-F 0 "P5" H 5150 3350 50  0000 C CNN
-F 1 "Bat5V" V 5250 3200 50  0000 C CNN
-F 2 "Footprints:Conn_01x02" H 5150 3200 60  0001 C CNN
-F 3 "" H 5150 3200 60  0000 C CNN
-	1    5150 3200
-	-1   0    0    1   
-$EndComp
-$Comp
-L CONN_01X02 P6
+L Conn_01x03 P2
 U 1 1 55E7E313
-P 6800 3200
-F 0 "P6" H 6800 3350 50  0000 C CNN
-F 1 "Bat15V" V 6900 3200 50  0000 C CNN
-F 2 "Footprints:Power_Conn_01x02" H 6800 3200 60  0001 C CNN
-F 3 "" H 6800 3200 60  0000 C CNN
-	1    6800 3200
-	1    0    0    -1  
+P 4950 3850
+F 0 "P2" H 4950 4050 50  0000 C CNN
+F 1 "Power IO" V 5050 3850 50  0000 C CNN
+F 2 "" H 4950 3850 60  0001 C CNN
+F 3 "" H 4950 3850 60  0000 C CNN
+	1    4950 3850
+	-1   0    0    -1  
 $EndComp
-Text HLabel 5350 3150 2    60   Output ~ 0
+Text HLabel 7150 3850 1    60   Output ~ 0
 +5V
-Wire Wire Line
-	5350 3250 6000 3250
-Wire Wire Line
-	6000 3250 6000 2950
-Wire Wire Line
-	6600 3150 6000 3150
-Connection ~ 6000 3150
-Text HLabel 6000 2950 1    60   Output ~ 0
+Text HLabel 5350 4950 3    60   Output ~ 0
 GND
-Wire Wire Line
-	6600 3250 6300 3250
-Wire Wire Line
-	6300 3250 6300 3700
-Wire Wire Line
-	6300 3700 5950 3700
-Text HLabel 5450 3700 0    60   Output ~ 0
+Text HLabel 5750 3850 1    60   Output ~ 0
 +15V
 $Comp
-L FUSE F1
+L Fuse F1
 U 1 1 560397C6
-P 5700 3700
-F 0 "F1" H 5800 3750 50  0000 C CNN
-F 1 "FUSE" H 5600 3650 50  0000 C CNN
-F 2 "Footprints:Fuse" H 5700 3700 60  0001 C CNN
-F 3 "" H 5700 3700 60  0000 C CNN
-	1    5700 3700
+P 5500 3950
+F 0 "F1" V 5600 3950 50  0000 C CNN
+F 1 "FUSE" V 5400 3950 50  0000 C CNN
+F 2 "" H 5500 3950 60  0001 C CNN
+F 3 "" H 5500 3950 60  0000 C CNN
+	1    5500 3950
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5150 3850 5250 3850
+Wire Wire Line
+	5150 3950 5350 3950
+$Comp
+L C C2
+U 1 1 59FBAE48
+P 6000 4200
+F 0 "C2" H 6025 4300 50  0000 L CNN
+F 1 "220nF" H 6025 4100 50  0000 L CNN
+F 2 "" H 6038 4050 50  0001 C CNN
+F 3 "" H 6000 4200 50  0001 C CNN
+	1    6000 4200
 	1    0    0    -1  
 $EndComp
+$Comp
+L C C4
+U 1 1 59FBAF9E
+P 7400 4200
+F 0 "C4" H 7425 4300 50  0000 L CNN
+F 1 "100nF" H 7425 4100 50  0000 L CNN
+F 2 "" H 7438 4050 50  0001 C CNN
+F 3 "" H 7400 4200 50  0001 C CNN
+	1    7400 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 59FF296D
+P 5750 4200
+F 0 "C1" H 5775 4300 50  0000 L CNN
+F 1 "10µF" H 5775 4100 50  0000 L CNN
+F 2 "" H 5788 4050 50  0001 C CNN
+F 3 "" H 5750 4200 50  0001 C CNN
+	1    5750 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C3
+U 1 1 59FF29CD
+P 7150 4200
+F 0 "C3" H 7175 4300 50  0000 L CNN
+F 1 "1µF" H 7175 4100 50  0000 L CNN
+F 2 "" H 7188 4050 50  0001 C CNN
+F 3 "" H 7150 4200 50  0001 C CNN
+	1    7150 4200
+	1    0    0    -1  
+$EndComp
+Connection ~ 5750 3950
+Wire Wire Line
+	6000 3950 6000 4050
+Connection ~ 6000 3950
+Wire Wire Line
+	5750 3850 5750 4050
+$Comp
+L LED D4
+U 1 1 59FF376D
+P 6350 4600
+F 0 "D4" H 6350 4700 50  0000 C CNN
+F 1 "LED_15V" H 6350 4500 50  0000 C CNN
+F 2 "" H 6350 4600 50  0001 C CNN
+F 3 "" H 6350 4600 50  0001 C CNN
+	1    6350 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LM7805_TO220 U2
+U 1 1 59FBAA64
+P 6750 3950
+F 0 "U2" H 6600 4075 50  0000 C CNN
+F 1 "LM7805" H 6750 4075 50  0000 L CNN
+F 2 "" H 6750 4175 50  0001 C CIN
+F 3 "" H 6750 3900 50  0001 C CNN
+	1    6750 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 59FF39F1
+P 6350 4200
+F 0 "R4" V 6430 4200 50  0000 C CNN
+F 1 "6kΩ" V 6350 4200 50  0000 C CNN
+F 2 "" V 6280 4200 50  0001 C CNN
+F 3 "" H 6350 4200 50  0001 C CNN
+	1    6350 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 4350 6350 4450
+Wire Wire Line
+	5650 3950 6450 3950
+Wire Wire Line
+	6350 3950 6350 4050
+Connection ~ 6350 3950
+Wire Wire Line
+	5250 3300 5250 4850
+Wire Wire Line
+	5250 4850 7750 4850
+Wire Wire Line
+	5350 4850 5350 4950
+Wire Wire Line
+	5750 4850 5750 4350
+Connection ~ 5350 4850
+Wire Wire Line
+	6000 4850 6000 4350
+Connection ~ 5750 4850
+Wire Wire Line
+	6350 4850 6350 4750
+Connection ~ 6000 4850
+Wire Wire Line
+	6750 4850 6750 4250
+Connection ~ 6350 4850
+$Comp
+L LED D5
+U 1 1 59FF3CBB
+P 7750 4600
+F 0 "D5" H 7750 4700 50  0000 C CNN
+F 1 "LED_5V" H 7750 4500 50  0000 C CNN
+F 2 "" H 7750 4600 50  0001 C CNN
+F 3 "" H 7750 4600 50  0001 C CNN
+	1    7750 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R5
+U 1 1 59FF3CC1
+P 7750 4200
+F 0 "R5" V 7830 4200 50  0000 C CNN
+F 1 "1.4kΩ" V 7750 4200 50  0000 C CNN
+F 2 "" V 7680 4200 50  0001 C CNN
+F 3 "" H 7750 4200 50  0001 C CNN
+	1    7750 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 4350 7750 4450
+Wire Wire Line
+	7050 3950 7750 3950
+Wire Wire Line
+	7150 3850 7150 4050
+Wire Wire Line
+	7400 3950 7400 4050
+Connection ~ 7150 3950
+Wire Wire Line
+	7750 3950 7750 4050
+Connection ~ 7400 3950
+Wire Wire Line
+	7150 4850 7150 4350
+Connection ~ 6750 4850
+Wire Wire Line
+	7400 4850 7400 4350
+Connection ~ 7150 4850
+Wire Wire Line
+	7750 4850 7750 4750
+Connection ~ 7400 4850
+$Comp
+L Conn_01x03 P1
+U 1 1 5A049EFB
+P 4950 3300
+F 0 "P1" H 4950 3500 50  0000 C CNN
+F 1 "Power IO" V 5050 3300 50  0000 C CNN
+F 2 "" H 4950 3300 60  0001 C CNN
+F 3 "" H 4950 3300 60  0000 C CNN
+	1    4950 3300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 3750 5200 3750
+Wire Wire Line
+	5200 3750 5200 3200
+Wire Wire Line
+	5200 3200 5150 3200
+Wire Wire Line
+	5250 3300 5150 3300
+Connection ~ 5250 3850
+Wire Wire Line
+	5300 3950 5300 3400
+Wire Wire Line
+	5300 3400 5150 3400
+Connection ~ 5300 3950
 $EndSCHEMATC

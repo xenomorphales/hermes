@@ -1,42 +1,14 @@
 EESchema Schematic File Version 2
-LIBS:power
 LIBS:device
-LIBS:transistors
 LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:Hermes-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 17
-Title ""
+Sheet 6 18
+Title "Encoder"
 Date ""
-Rev ""
+Rev "rev1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -44,27 +16,27 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_01X04 P7
+L Conn_01x04 P6
 U 1 1 55E71CE3
-P 5850 4300
-AR Path="/55E78073/55E71CE3" Ref="P7"  Part="1" 
-AR Path="/55E78AE8/55E71CE3" Ref="P8"  Part="1" 
-F 0 "P7" H 5850 4550 50  0000 C CNN
-F 1 "Encoder" V 5950 4300 50  0000 C CNN
-F 2 "Footprints:Conn_01x04" H 5850 4300 60  0001 C CNN
-F 3 "" H 5850 4300 60  0000 C CNN
-	1    5850 4300
+P 5900 4300
+AR Path="/59FB8F5F/55E71CE3" Ref="P6"  Part="1" 
+AR Path="/59FF91FA/55E71CE3" Ref="P7"  Part="1" 
+F 0 "P7" H 5900 4550 50  0000 C CNN
+F 1 "Encoder" V 6000 4250 50  0000 C CNN
+F 2 "" H 5900 4300 60  0001 C CNN
+F 3 "" H 5900 4300 60  0000 C CNN
+	1    5900 4300
 	0    1    1    0   
 $EndComp
 $Comp
-L C C9
+L C C10
 U 1 1 55E71CEC
 P 6800 3950
-AR Path="/55E78073/55E71CEC" Ref="C9"  Part="1" 
-AR Path="/55E78AE8/55E71CEC" Ref="C10"  Part="1" 
-F 0 "C9" H 6825 4050 50  0000 L CNN
+AR Path="/59FB8F5F/55E71CEC" Ref="C10"  Part="1" 
+AR Path="/59FF91FA/55E71CEC" Ref="C11"  Part="1" 
+F 0 "C11" H 6825 4050 50  0000 L CNN
 F 1 "100nF" H 6825 3850 50  0000 L CNN
-F 2 "Footprints:C_CMS0603" H 6838 3800 30  0001 C CNN
+F 2 "" H 6838 3800 30  0001 C CNN
 F 3 "" H 6800 3950 60  0000 C CNN
 	1    6800 3950
 	1    0    0    -1  
@@ -78,53 +50,53 @@ A
 Text HLabel 5600 3000 1    60   Output ~ 0
 B
 $Comp
-L R R10
+L R R12
 U 1 1 5602AF11
 P 5600 3200
-AR Path="/55E78073/5602AF11" Ref="R10"  Part="1" 
-AR Path="/55E78AE8/5602AF11" Ref="R14"  Part="1" 
-F 0 "R10" V 5680 3200 50  0000 C CNN
+AR Path="/59FB8F5F/5602AF11" Ref="R12"  Part="1" 
+AR Path="/59FF91FA/5602AF11" Ref="R16"  Part="1" 
+F 0 "R16" V 5680 3200 50  0000 C CNN
 F 1 "22Ω" V 5600 3200 50  0000 C CNN
-F 2 "Footprints:R_CMS1206" V 5530 3200 30  0001 C CNN
+F 2 "" V 5530 3200 30  0001 C CNN
 F 3 "" H 5600 3200 30  0000 C CNN
 	1    5600 3200
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R11
+L R R13
 U 1 1 5602AF44
 P 5900 3200
-AR Path="/55E78073/5602AF44" Ref="R11"  Part="1" 
-AR Path="/55E78AE8/5602AF44" Ref="R15"  Part="1" 
-F 0 "R11" V 5980 3200 50  0000 C CNN
+AR Path="/59FB8F5F/5602AF44" Ref="R13"  Part="1" 
+AR Path="/59FF91FA/5602AF44" Ref="R17"  Part="1" 
+F 0 "R17" V 5980 3200 50  0000 C CNN
 F 1 "22Ω" V 5900 3200 50  0000 C CNN
-F 2 "Footprints:R_CMS1206" V 5830 3200 30  0001 C CNN
+F 2 "" V 5830 3200 30  0001 C CNN
 F 3 "" H 5900 3200 30  0000 C CNN
 	1    5900 3200
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R13
+L R R15
 U 1 1 5602B19C
 P 6350 3650
-AR Path="/55E78073/5602B19C" Ref="R13"  Part="1" 
-AR Path="/55E78AE8/5602B19C" Ref="R17"  Part="1" 
-F 0 "R13" V 6430 3650 50  0000 C CNN
+AR Path="/59FB8F5F/5602B19C" Ref="R15"  Part="1" 
+AR Path="/59FF91FA/5602B19C" Ref="R19"  Part="1" 
+F 0 "R19" V 6430 3650 50  0000 C CNN
 F 1 "10kΩ" V 6350 3650 50  0000 C CNN
-F 2 "Footprints:R_CMS1206" V 6280 3650 30  0001 C CNN
+F 2 "" V 6280 3650 30  0001 C CNN
 F 3 "" H 6350 3650 30  0000 C CNN
 	1    6350 3650
 	0    1    1    0   
 $EndComp
 $Comp
-L R R12
+L R R14
 U 1 1 5602B1C5
 P 6350 3450
-AR Path="/55E78073/5602B1C5" Ref="R12"  Part="1" 
-AR Path="/55E78AE8/5602B1C5" Ref="R16"  Part="1" 
-F 0 "R12" V 6430 3450 50  0000 C CNN
+AR Path="/59FB8F5F/5602B1C5" Ref="R14"  Part="1" 
+AR Path="/59FF91FA/5602B1C5" Ref="R18"  Part="1" 
+F 0 "R18" V 6430 3450 50  0000 C CNN
 F 1 "10kΩ" V 6350 3450 50  0000 C CNN
-F 2 "Footprints:R_CMS1206" V 6280 3450 30  0001 C CNN
+F 2 "" V 6280 3450 30  0001 C CNN
 F 3 "" H 6350 3450 30  0000 C CNN
 	1    6350 3450
 	0    1    1    0   
