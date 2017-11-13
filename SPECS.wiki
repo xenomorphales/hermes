@@ -1,0 +1,157 @@
+== Devices ==
+
+{|
+!  Device !! Quantity !! Links !! Comment
+|-
+| Main board
+| 1
+| [https://www.pjrc.com/store/teensy32.html Board]
+| Teensy 3.2
+|-
+| 30A fuse
+| 1
+| [https://www.mouser.fr/ProductDetail/Bussmann-Eaton/BK-ABC-V-30-R/?qs=sGAEpiMZZMtxU2g%2F1juGqRXDIqpMzLsN3ttdS24t%252bVQ%3D Fuse]
+| Axial fuse so no need for a fuse holder
+|-
+| 5V regulator
+| 1
+| [https://www.mouser.fr/search/ProductDetail.aspx?R=0virtualkey0virtualkeyLM7805CT-NOPB Regulator]
+| TI LM7805
+|-
+| Encoder
+| 2
+| [http://www.robotshop.com/eu/fr/encodeur-rotatif-6mm-1024-p-r.html Encoder]
+|
+|-
+| Motor driver
+| 2 channels
+|
+[https://www.pololu.com/product/708 Driver] <br/>
+[http://www.francerobotique.com/moteurs-classiques/567-moteur-metal-planetaire-premium-hd-12v-612rpm-avec-encodeur-art0567-servocitypoids-330g-rapport-de-reduction-14-1-tension-dalime.html Motors]
+|
+|-
+| Limit switch
+| 4
+|
+| With debounce system
+|-
+| GP2
+| 6
+|
+|
+|-
+| CAN
+| 1
+| [https://www.mouser.fr/ProductDetail/Texas-Instruments/SN65HVD232DR/?qs=sGAEpiMZZMuo%252bmZx5g6tFL5kWJ52EgZi Transceiver]
+|
+|-
+| UART
+| 2
+|
+|
+|-
+| I2C
+| 1
+|
+|
+|-
+| Debug LED
+| 3
+| [https://www.mouser.fr/ProductDetail/Kingbright/AP3216CGCK/?qs=VdjlWU%2FzoOG1eeDl%2FnjAXA%3D%3D LED]
+| Green LED
+|-
+| Pull
+| 1
+|
+| With debounce system
+|-
+| Power LED
+| 2
+| [https://www.mouser.fr/ProductDetail/Kingbright/AP3216SURCK/?qs=sGAEpiMZZMseGfSY3csMkfJS7xWFNN5n33Jv6PCAEQU%3D LED]
+| Red LED (one for +15V, one for +5V)
+|-
+|}
+
+== Pin mapping ==
+
+{|
+!  Board pin !! µC pin index !! µC pin name !! Mode        !! I/O !! Feature
+|-
+|  0         || 39           || PTB16       || UART0_RX    || I   || UART 0 input
+|-
+|  1         || 40           || PTB17       || UART0_TX    || O   || UART 0 output
+|-
+|  2         || 57           || PTD0        || PTD0        || I   || Pull
+|-
+|  3         || 28           || PTA12       || CAN0_TX     || O   || CAN ouput
+|-
+|  4         || 29           || PTA13       || CAN0_RX     || I   || CAN input
+|-
+|  5         || 64           || PTD7        || PTD7        || I   || Limit switch 1
+|-
+|  6         || 61           || PTD4        || PTD4        || I   || Limit switch 2
+|-
+|  7         || 59           || PTD2        || PTD2        || I   || Limit switch 3
+|-
+|  8         || 60           || PTD3        || PTD3        || I   || Limit switch 4
+|-
+|  9         || 46           || PTC3        || UART1_RX    || I   || UART 1 input
+|-
+|  10        || 49           || PTC4        || UART1_TX    || O   || UART 1 output
+|-
+|  11        || 51           || PTC6        || PTC6        || O   || LED Debug0
+|-
+|  12        || 52           || PTC7        || PTC7        || O   || LED Debug1
+|-
+|  13        || 50           || PTC5        || PTC5        || O   || LED Debug2 ; On-board LED
+|-
+|  14        || 58           || PTD1        || ADC0_SE5b   || I   || GP2 1
+|-
+|  15        || 43           || PTC0        || PTC0        || I   || Motor driver 1 diag input
+|-
+|  16        || 35           || PTB0        || FTM1_QD_PHA || I   || Encoder 1 phase A
+|-
+|  17        || 36           || PTB1        || FTM1_QD_PHB || I   || Encoder 1 phase B
+|-
+|  18        || 38           || PTB3        || I2C0_SDA    || I/O || I2C data
+|-
+|  19        || 37           || PTB2        || I2C0_SCL    || I/O || I2C clock
+|-
+|  20        || 62           || PTD5        || ADC0_SE6b   || I   || GP2 2
+|-
+|  21        || 63           || PTD6        || ADC0_SE7b   || I   || GP2 3
+|-
+|  22        || 44           || PTC1        || FTM0_CH0    || O   || Motor driver 1 PWM output
+|-
+|  23        || 45           || PTC2        || FTM0_CH1    || O   || Motor driver 2 PWM output
+|-
+|  A10       || 9            || ADC0_DP0    || ---         || --- || ---
+|-
+|  A11       || 10           || ADC0_DM0    || ---         || --- || ---
+|-
+|  A12       || 11           || ADC0_DP3    || ---         || --- || ---
+|-
+|  A13       || 12           || ADC0_DM3    || ---         || --- || ---
+|-
+|  A14       || 18           || DAC0        || ---         || --- || ---
+|-
+|  24        || 27           || PTA5        || PTA5        || O   || Motor driver 1 IN_A output
+|-
+|  25        || 42           || PTB19       || FTM2_QD_PHB || I   || Encoder 2 phase B
+|-
+|  26        || 2            || PTE1        || PTE1        || O   || Motor driver 2 IN_A output
+|-
+|  27        || 54           || PTC9        || ADC1_SE5b   || I   || GP2 4
+|-
+|  28        || 53           || PTC8        || PTC8        || I   || Motor driver 2 diag input
+|-
+|  29        || 55           || PTC10       || ADC1_SE6b   || I   || GP2 5
+|-
+|  30        || 56           || PTC11       || ADC1_SE7b   || I   || GP2 6
+|-
+|  31        || 1            || PTE0        || PTE0        || O   || Motor driver 2 IN_B output
+|-
+|  32        || 41           || PTB18       || FTM2_QD_PHA || I   || Encoder 2 phase A
+|-
+|  33        || 26           || PTA4        || PTA4        || O   || Motor driver 1 IN_B output
+|}
