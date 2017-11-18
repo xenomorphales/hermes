@@ -8,15 +8,21 @@
 | [https://www.pjrc.com/store/teensy32.html Board]
 | Teensy 3.2
 |-
-| 30A fuse
+| Motor 30A fuse
 | 1
-| [https://www.mouser.fr/ProductDetail/Bussmann-Eaton/BK-ABC-V-30-R/?qs=sGAEpiMZZMtxU2g%2F1juGqRXDIqpMzLsN3ttdS24t%252bVQ%3D Fuse]
-| Axial fuse so no need for a fuse holder
+| [https://www.mouser.fr/ProductDetail/Bussmann-Eaton/BK-ABC-V-30-R/?qs=sGAEpiMZZMtxU2g%2F1juGqRXDIqpMzLsN3ttdS24t%252bVQ%3D Axial fuse]
+|
 |-
 | 5V regulator
 | 1
 | [https://www.mouser.fr/search/ProductDetail.aspx?R=0virtualkey0virtualkeyLM7805CT-NOPB Regulator]
 | TI LM7805
+|-
+| Regulator 1A fuse
+| 1
+| [https://www.mouser.fr/ProductDetail/Bussmann-Eaton/BK-GMA-1-R/?qs=sGAEpiMZZMtxU2g%2f1juGqVHgfOhwRYFi7ZurVwuXxZ8%3d Fuse] <br/>
+[https://www.mouser.fr/ProductDetail/Littelfuse/64600001003/?qs=sGAEpiMZZMuxTAA0eeO5G%252b04FDVUS6YDd4evnBw%252bKIg%3d Fuse holder]
+|
 |-
 | Encoder
 | 2
