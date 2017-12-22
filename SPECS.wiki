@@ -15,8 +15,8 @@
 |-
 | 5V regulator
 | 1
-| [https://www.mouser.fr/search/ProductDetail.aspx?R=0virtualkey0virtualkeyLM7805CT-NOPB Regulator]
-| TI LM7805
+| [https://www.mouser.fr/ProductDetail/Murata-Power-Solutions/OKI-78SR-5-15-W36-C/?qs=uJpRT2lXVNXJP%252bo08dQqJQ%3D%3D Regulator]
+| Murata OKI78SR5/1.5W36C
 |-
 | Regulator 1A fuse
 | 1
