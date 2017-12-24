@@ -1,0 +1,163 @@
+== Components for Hermes 2 ==
+
+=== Components for the board itself ===
+
+{|
+! Description !! Quantity !! Supplier
+|-
+| Resistor SMD1206 22Ω 0.25W
+| 4
+| [https://www.mouser.com/productdetail/603-rc1206fr-0722rl Mouser]
+|-
+| Resistor SMD1206 120Ω 0.25W
+| 3
+| [https://www.mouser.com/productdetail/603-rc1206fr-07120rl Mouser]
+|-
+| Resistor SMD1206 1.4kΩ 0.25W
+| 1
+| [https://www.mouser.com/productdetail/603-rc1206fr-071k4l Mouser]
+|-
+| Resistor SMD1206 2kΩ 0.25W
+| 2
+| [https://www.mouser.com/productdetail/603-rc1206fr-072kl Mouser]
+|-
+| Resistor SMD1206 6kΩ 0.25W
+| 1
+| [https://www.mouser.com/productdetail/603-rc1206fr-076k04l Mouser]
+|-
+| Resistor SMD1206 10kΩ 0.25W
+| 14
+| [https://www.mouser.com/productdetail/603-rc1206fr-0710kl Mouser]
+|-
+| Resistor SMD1206 18kΩ 0.25W
+| 5
+| [https://www.mouser.com/productdetail/603-rc1206fr-0718kl Mouser]
+|-
+| Resistor SMD1206 20kΩ 0.25W
+| 6
+| [https://www.mouser.com/productdetail/603-rc1206fr-0720kl Mouser]
+|-
+| Resistor SMD1206 100kΩ 0.25W
+| 5
+| [https://www.mouser.com/productdetail/603-rc1206fr-07100kl Mouser]
+|-
+| Ceramic capacitor SMD1206 100nF 50V
+| 14
+| [https://www.mouser.com/productdetail/963-umk316b7104kd-t Mouser]
+|-
+| Ceramic capacitor SMD1206 1µF 25V
+| 6
+| [https://www.mouser.com/productdetail/963-tmk316b7105kl-t Mouser]
+|-
+| Ceramic capacitor SMD1206 10µF 25V
+| 9
+| [https://www.mouser.com/productdetail/963-tmk316ab7106kl-t Mouser]
+|-
+| Green LED SMD1206
+| 3
+| [https://www.mouser.com/productdetail/604-ap3216cgck Mouser]
+|-
+| Red LED SMD1206
+| 2
+| [https://www.mouser.com/productdetail/604-ap3216surck Mouser]
+|-
+| Fuse holder 6.3A 250V
+| 1
+| [https://www.mouser.com/productdetail/576-64600001003 Mouser]
+|-
+| Fuse 3AG 30A 125VDC fast-acting, axial mounting
+| 1
+| [https://www.mouser.com/productdetail/504-bk-abc-v-30-r Mouser]
+|-
+| CAN transceiver
+| 1
+| [https://www.mouser.com/productdetail/595-sn65hvd232dr Mouser]
+|-
+| 5V switching regulator
+| 1
+| [https://www.mouser.com/productdetail/580-oki-78sr-5-1.5-w36-c Mouser]
+|-
+| Teensy 3.2
+| 1
+| [https://snootlab.com/963-teensy-32-usb-en.html Snootlab]
+|-
+| Break away headers for the Teensy's side pins
+| 2
+| [https://snootlab.com/connectors/305-break-away-headers-16-pins-strip.html Snootlab]
+|-
+| Break away sockets for the Teensy's side pins
+| 2
+| [https://www.mouser.com/productdetail/517-929974-01-14-rk Mouser]
+|-
+| Teensy 3.2 header kit (for the 2x7 pins SMD header)
+| 1
+| [https://snootlab.com/sparkfun/1190-teensy-32-header-kit-en.html Snootlab]
+|-
+| Break away sockets for the Teensy's underneath pins
+| 1
+| [https://www.mouser.com/productdetail/517-929975-01-04-rk Mouser]
+|-
+| Motor driver carrier
+| 1
+| [https://www.pololu.com/product/708 Pololu]
+|-
+| Male right angle power connector
+| 2
+| [https://www.mouser.com/productdetail/798-df22-3p-7.92ds05 Mouser]
+|-
+| Vertical male connector 2.54mm 2 pins
+| 5
+| [https://www.mouser.com/productdetail/538-22-27-2021 Mouser]
+|-
+| Vertical male connector 2.54mm 3 pins
+| 11
+| [https://www.mouser.com/productdetail/538-22-27-2031 Mouser]
+|-
+| Vertical male connector 2.54mm 4 pins
+| 2
+| [https://www.mouser.com/productdetail/538-22-27-2041 Mouser]
+|-
+|}
+
+=== Other components (wires, connectors, supplies...) ===
+
+{|
+! Description !! Quantity !! Supplier
+|-
+| Fuse 5mm x 20mm 1A 250VAC fast-acting
+| 1
+| [https://www.mouser.com/productdetail/504-bk-gma-1-r Mouser]
+|-
+| XT60 connectors pack (5 pairs)
+| 1
+| [https://hobbyking.com/en_us/nylon-xt60-connectors-male-female-5-pairs-genuine.html HobbyKing]
+|-
+| Female power connector
+| 2
+| [https://www.mouser.com/productdetail/798-df22-3s-7.92c28 Mouser]
+|-
+| Female power connector contact
+| 6
+| [https://www.mouser.com/productdetail/798-df22a-1012scf Mouser]
+|-
+| Power connector retainer
+| 2
+| [https://www.mouser.com/productdetail/798-df22-3rs-p-7.92 Mouser]
+|-
+| Vertical female connector 2.54mm 2 pins
+| 5
+| [https://www.mouser.com/productdetail/538-22-01-2025 Mouser]
+|-
+| Vertical female connector 2.54mm 3 pins
+| 11
+| [https://www.mouser.com/productdetail/538-22-01-2035 Mouser]
+|-
+| Vertical female connector 2.54mm 4 pins
+| 2
+| [https://www.mouser.com/productdetail/538-22-01-2045 Mouser]
+|-
+| Female connector contact
+| 51
+| [https://www.mouser.com/productdetail/538-08-50-0114 Mouser]
+|-
+|}
