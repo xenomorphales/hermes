@@ -63,7 +63,7 @@
 |-
 | Fuse holder 6.3A 250V
 | 1
-| [https://www.mouser.com/productdetail/576-64600001003 Mouser]
+| [https://www.mouser.com/productdetail/576-64600001223 Mouser]
 |-
 | Fuse 3AG 30A 125VDC fast-acting, axial mounting
 | 1
@@ -93,13 +93,17 @@
 | 1
 | [https://snootlab.com/sparkfun/1190-teensy-32-header-kit-en.html Snootlab]
 |-
-| Break away sockets for the Teensy's underneath pins
+| Break away socket for the Teensy's underneath pins
 | 1
 | [https://www.mouser.com/productdetail/517-929975-01-04-rk Mouser]
 |-
 | Motor driver carrier
 | 1
 | [https://www.pololu.com/product/708 Pololu]
+|-
+| Break away socket for the motor driver carrier
+| 1
+| [https://www.mouser.fr/productdetail/517-929974-01-15-rk Mouser]
 |-
 | Male right angle power connector
 | 2
