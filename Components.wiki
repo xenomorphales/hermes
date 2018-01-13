@@ -142,7 +142,7 @@
 |-
 | Female power connector contact
 | 6
-| [https://www.mouser.com/productdetail/798-df22a-1012scf Mouser]
+| [https://www.mouser.com/productdetail/798-df22-1416scf Mouser]
 |-
 | Power connector retainer
 | 2
@@ -163,5 +163,13 @@
 | Female connector contact
 | 51
 | [https://www.mouser.com/productdetail/538-08-50-0114 Mouser]
+|-
+| 14AWG black power wire
+| 3
+| [https://www.mouser.com/productdetail/650-400R0111-14-0 Mouser]
+|-
+| 14AWG white power wire
+| 3
+| [https://www.mouser.com/productdetail/650-400R0111-14-9 Mouser]
 |-
 |}
