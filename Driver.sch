@@ -43,11 +43,11 @@ F 3 "" H 8100 3950 60  0000 C CNN
 	1    8100 3950
 	-1   0    0    1   
 $EndComp
-Text HLabel 4850 4750 0    60   Input ~ 0
+Text HLabel 4850 4550 0    60   Input ~ 0
 PWM_2
 Text HLabel 4850 3150 0    60   Input ~ 0
 IN_A_1
-Text HLabel 4850 4550 0    60   Input ~ 0
+Text HLabel 4850 4750 0    60   Input ~ 0
 IN_A_2
 Text HLabel 4850 3250 0    60   Input ~ 0
 IN_B_1
@@ -55,11 +55,11 @@ Text HLabel 4850 4650 0    60   Input ~ 0
 IN_B_2
 Text HLabel 4850 3050 0    60   Output ~ 0
 DIAG_1
-Text HLabel 4850 4450 0    60   Output ~ 0
+Text HLabel 4850 4850 0    60   Output ~ 0
 DIAG_2
 Text HLabel 4850 3450 0    60   Output ~ 0
 CS_1
-Text HLabel 4850 4850 0    60   Output ~ 0
+Text HLabel 4850 4450 0    60   Output ~ 0
 CS_2
 Text HLabel 4850 3950 0    60   Input ~ 0
 +5V
