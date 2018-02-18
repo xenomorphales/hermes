@@ -5,4 +5,5 @@
   (lib (name xenocad.regul)(type KiCad)(uri "$(XENOCAD)/regul.pretty")(options "")(descr ""))
   (lib (name xenocad.connectors)(type KiCad)(uri "$(XENOCAD)/connectors.pretty")(options "")(descr ""))
   (lib (name xenocad.motor_driver)(type KiCad)(uri "$(XENOCAD)/motor_driver.pretty")(options "")(descr ""))
+  (lib (name xenocad.misc)(type KiCad)(uri "$(XENOCAD)/misc.pretty")(options "")(descr ""))
 )
