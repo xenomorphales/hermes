@@ -95,7 +95,7 @@
 |-
 | Break away socket for the Teensy's underneath pins
 | 1
-| [https://www.mouser.com/productdetail/517-929975-01-04-rk Mouser]
+| [https://www.mouser.com/productdetail/517-929975-01-07-rk Mouser]
 |-
 | Motor driver carrier
 | 1
